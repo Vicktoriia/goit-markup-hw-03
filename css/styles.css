@@ -36,6 +36,7 @@ p {
   margin: 0;
   pointer-events: none;
 }
+
 .hidden {
     position: absolute; 
   width: 1px; 
@@ -48,12 +49,12 @@ p {
   clip: rect(0 0 0 0); 
   overflow: hidden; 
 } 
-}
 
 img {
     width: 100%;
     display: block;
 }
+
 .btn {
   font-family: inherit;
   text-transform: none;
@@ -202,11 +203,11 @@ img {
   color: var(--accent);
 }
 
-/* hero */
+/* Hero section */
 .hero {
   width: 100%;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   background-color: var(--footer-bg);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -277,10 +278,6 @@ img {
 
 /* Benefits section */
 
-/* .hidden {
-    overflow: hidden;
-} */
-
 .benefits-item {
   margin-right: 30px;
   width: calc((100% - (4 - 1) * 30px) / 4);
@@ -310,7 +307,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text);
 }
-/* Activities */
+/* Activities section */
 
 .activities {
   display: flex;
@@ -401,7 +398,7 @@ img {
 .filters-item:not(:last-child) {
     margin-right: 8px;
 }
-/* Ptojects */
+/* Ptojects section */
 .projects {
     padding-bottom: 94px;
 }
